@@ -42,3 +42,21 @@ Main use cases will be :
 - Better execution for traders: Traders get lower slippage and deeper liquidity in the most relevant price zones.
 - Efficient price movement tracking: Tick math allows the protocol to determine exactly when the pool price crosses from one range to another.
 - Accurate liquidity accounting: By using ticks, the protocol can precisely manage liquidity positions, fee growth, and swap steps at each price boundary.
+
+## Implementations
+
+### 🌊 Orca Whirlpool
+
+This repository includes a complete Rust implementation for working with Orca Whirlpool tick arrays and concentrated liquidity pools.
+
+**Features:**
+
+- ✅ Tick array fetching and management
+- ✅ Whirlpool data parsing
+- ✅ PDA derivation for tick arrays
+- ✅ Integration tests with live mainnet data
+- ✅ Optimized data structures for computations
+
+**📖 [View detailed Orca documentation →](./orca/README.md)**
+
+_The Orca implementation provides tick math utilities for working with Orca Whirlpools._
